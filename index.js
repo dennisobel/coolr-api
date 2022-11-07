@@ -11,6 +11,8 @@ app.use(morgan('combined'))
 app.use(cors());
 app.use(express.json());
 
+
+// PASSWORD SHOULD OF-COURSE BE HIDDEN IN AN ENVIRONMENT FILE
 const uri =
   "mongodb+srv://dennisobel:Beloved2022@cluster0.zlu0jub.mongodb.net/?retryWrites=true&w=majority";
 
